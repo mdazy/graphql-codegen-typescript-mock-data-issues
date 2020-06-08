@@ -1,0 +1,9 @@
+scalar AnyObject
+
+scalar Date
+
+# input Macro parameters types
+input ServiceParametersInput {
+  date: Date!
+  data: AnyObject
+}

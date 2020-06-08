@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-ts",
+  "version": "1.0.0",
+  "description": "JavaScript and TypeScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run codegene && parcel index.html --open",
+    "build": "parcel build index.html",
+    "codegen": "graphql-codegen -c codegen.yml"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "1.15.1",
+    "@graphql-codegen/typescript": "1.15.1",
+    "graphql-codegen-typescript-mock-data": "0.3.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": ["typescript", "javascript"]
+}
