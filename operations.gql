@@ -1,0 +1,6 @@
+query foo {
+  foo {
+    date
+    object
+  }
+}

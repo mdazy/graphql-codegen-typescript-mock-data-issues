@@ -11,10 +11,14 @@
   "dependencies": {
     "@graphql-codegen/cli": "1.15.1",
     "@graphql-codegen/typescript": "1.15.1",
+    "graphql": "^15.1.0",
     "graphql-codegen-typescript-mock-data": "0.3.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
   },
-  "keywords": ["typescript", "javascript"]
+  "keywords": [
+    "typescript",
+    "javascript"
+  ]
 }

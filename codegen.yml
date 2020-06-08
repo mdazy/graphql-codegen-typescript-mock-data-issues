@@ -1,13 +1,10 @@
-documents: ./schema.gql
+documents: ./*.gql
+schema: ./schema.gql
 generates:
   ./clientTypes.ts:
     plugins:
       - typescript
-    config:
-      namingConvention:
-        typeNames: keep # for compatibility with typescript-mock-data 0.3.1, see issue https://github.com/ardeois/graphql-codegen-typescript-mock-data/issues/16
   ./mocks.ts:
     plugins:
       - "graphql-codegen-typescript-mock-data":
           typesFile: "./clientTypes.ts"
-          addTypename: true

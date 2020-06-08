@@ -1,9 +1,11 @@
 scalar AnyObject
-
 scalar Date
 
-# input Macro parameters types
-input ServiceParametersInput {
+type Foo {
   date: Date!
-  data: AnyObject
+  object: AnyObject!
+}
+
+type Query {
+  foo: Foo!
 }
